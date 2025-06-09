@@ -1,0 +1,142 @@
+.main{
+    margin: 12px 10vw;
+    height: 100%;
+}
+
+.shoppingCartWrapper{
+    margin-top: 12px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 24px;
+}
+
+.shoppingList{
+    display: grid;
+    gap: 12px;
+}
+
+.shoppingItem{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 18px 22px;
+    border: 1px solid rgb(172, 172, 172);
+    border-radius: 20px;
+    box-shadow: 1px 1px 2px #707070b6 ;
+
+}
+
+.imageAndMain{
+    display: flex;
+    gap: 16px;
+}
+
+.category{
+    color: rgb(116, 116, 116);
+    font-size: 0.8rem;
+}
+
+.rating{
+    display: flex;
+    gap: 4px;
+}
+
+.productImage{
+    width: 80px;
+    height: 80px;
+}
+
+.price{
+    text-wrap: nowrap;
+    font-weight: 700;
+}
+
+.productListMain{
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.basket{
+    padding: 8px 8px 16px;
+    height: fit-content;
+    border: 1px solid rgb(172, 172, 172);
+    border-radius: 20px;
+    box-shadow: 1px 1px 2px #707070b6 ;
+}
+
+.overviewTitle{
+    margin-bottom: 12px;
+}
+
+.hr{
+    margin: 12px 0;
+}
+
+.overviewPairs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.itemsTekst{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    span{
+        color: rgb(42, 42, 42);
+        font-size: 0.6rem;
+    }
+}
+
+.inputBtn{
+    display: flex;
+    gap: 12px;
+    input{
+        text-align: center;
+        border: 1px solid rgb(81, 81, 81);
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+
+    }
+    input:focus{
+        outline: none;
+    }
+    button{
+        padding: 4px 8px;
+        background-color: rgb(190, 219, 244);
+        border: none;
+        color: white;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+    button:hover{
+        background-color: rgba(190, 219, 244, 0.852);
+    }
+    button:active{
+        background-color: rgba(190, 219, 244, 0.772);
+    }
+}
+
+@media (max-width: 720px){
+    .main{
+        margin: 12px 8px;
+    }
+
+    .shoppingCartWrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        padding: 12px 0;
+    }
+
+    .productImage{
+        width: 50px;
+        height: 50px;
+    }
+
+
+}

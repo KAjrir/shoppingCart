@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    padding: 12px;
+    background-color: rgb(190, 219, 244);
+}
+
+.active {
+    border-bottom: 2px solid #001f8f;
+    font-weight: bold;
+    color: #001f8f;
+}
+
+nav ul{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    display: flex;
+    gap: 24px;
+    font-size: 1.5rem;
+}
+
+nav ul a{
+    color: #090285
+}
+
+.logo{
+    width: 80px;
+    border-radius: 12px;
+}
+
+.shopping-cart{
+    padding: 4px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}

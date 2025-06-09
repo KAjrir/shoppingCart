@@ -1,0 +1,14 @@
+#root, body, .errorPage{
+    min-height: 100dvh;
+}
+
+.errorPage{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.pTag{
+    font-size: 4rem;
+    font-weight: bold;
+}
